@@ -142,6 +142,86 @@ font-size: 50px;
 .benefits h2{
 	text-align: center;
 }
+.horizontal{
+	position: relative;
+	top: -200px;
+	right: -420px;
+	width: 1000px;
+	height: 5px;
+	background-color: #111111;
+}
+.vertical1{
+	position: relative;
+	top: -220px;
+	right: -930px;
+	width: 5px;
+	height: 60px;
+	background-color: #111111;
+}
+.vertical2{	
+	position: relative;
+	top: -260px;
+	right: -420px;
+	width: 5px;
+	height: 37px;
+	background-color: #111111;}
+.vertical3{
+	position: relative;
+	top: -300px;
+	right: -1416px;
+		width: 5px;
+	height: 37px;
+	background-color: #111111;
+}
+.benefits h1 {
+	border-top: 0px;
+	text-align: center;
+}
+.benefits h2 {
+position: relative;
+	top: 15px;
+	right: 488px;
+}
+.benefits h3 {
+position: relative;
+	top: -45px;
+	right: -925px;
+	font-size: 25px;
+	margin-top: 10;
+
+}
+.benefits h4 {
+position: relative;
+	top: -110px;
+	right: -1415px;
+	font-size: 20px;
+}
+.benefits button{
+position: relative;
+	top: -170px;
+	right: -790px;
+	width: 252px;
+ height: 38px;
+ border-width: medium;
+ font-weight: bolder;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+position: relative;
+	top: -210px;
+	
+	margin: 0 auto;
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: ;
+  display: table;
+  clear: both;
+}
 .sep{
 	width: 2000px;
 	height: 5px;
