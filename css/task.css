@@ -111,7 +111,7 @@ body, html{
 	 top: -1255px; 
 	 right: 450px;
 	 height: 5800px;
-	 width: 55000px;
+	 width: 5500px;
 }
 .more-info{
 	width: 960px;
@@ -263,6 +263,117 @@ position: relative;
 		right: 400px;
 
 }
+
+.container {
+	width: 100%;
+	display: flex;
+		
+		padding: 50px;
+box-sizing: border-box;
+flex-direction: row;
+
+}
+.container img {
+	width: 400px;
+	position: relative;
+		right: -50px;
+		overflow: hidden;
+}
+
+.description1 h2 {
+	
+	width: 260px;
+	word-wrap: break-word;
+	position: relative;
+	top: -195px;
+	right: -140px;
+	color: white;
+}
+
+.description1 h3 {
+	
+	width: 120px;
+	word-wrap: break-word;
+	position: relative;
+	top: -135px;
+	right: -180px;
+	background-color: white;
+}
+
+.description1 p {
+	
+	width: 350px;
+	height: 100px;
+	
+	text-indent: 20px;
+	position: relative;
+	top: -100px;
+	right: -100px;
+	font-size: 24px;
+	
+}
+
+.description2 h2 {
+	
+	width: 260px;
+	word-wrap: break-word;
+	position: relative;
+	top: -195px;
+	right: -140px;
+	color: white;
+}
+
+.description2 h3 {
+	
+	width: 120px;
+	word-wrap: break-word;
+	position: relative;
+	top: -135px;
+	right: -180px;
+	background-color: white;
+}
+
+.description2 p {
+	
+	width: 350px;
+	height: 100px;
+	top: -100px;
+	right: -100px;
+	text-indent: 20px;
+	position: relative;
+	
+	font-size: 24px;
+	
+}
+
+
+
+.internalconteinerL{
+	flex: 1;
+	flex-direction: row;
+padding: 30px;
+
+
+}
+
+.internalconteinerM{
+flex: 1;
+flex-direction: row;
+padding: 30px;
+
+}
+
+.internalconteinerR{
+flex: 1;
+flex-direction: row;
+padding: 30px; 
+background-color: yellow;
+}
+
+@media screen and (max-width: 760px){
+	.container{
+		flex-direction: column-reverse;
+	}
 
 .sep2{
 	
