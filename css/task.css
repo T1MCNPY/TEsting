@@ -136,6 +136,8 @@ position: relative;
 	width: 50px;
  height: 50px; 
 border-width: medium;
+font-weight: bolder;
+
 font-size: 25px;
 
 }
@@ -223,7 +225,7 @@ position: relative;
   clear: both;
 }
 .sep{
-	width: 2000px;
+	width: 1700px;
 	height: 5px;
 	background-color: #111111;
 	margin: 70px auto;
@@ -407,17 +409,88 @@ padding: 30px;
 	.container{
 		flex-direction: column-reverse;
 	}
-
-.sep2{
-	
+}
+.sep{
+	width: 1700px;
 	height: 5px;
 	background-color: #111111;
 	margin: 70px auto;
+	position: relative;
+	top: -150px;
+}
+.story2{
+	width: 960px;
+	margin: 0 auto;
+}
+.story2 h1{
+	text-align: center;
+	font-size: 80px;
+	font-weight: 1000;
+	font-weight: bolder;
+}
+.story2 h2{
+	text-align: center;
+	font-size: 20px;
+	
+	font-weight: bolder;
+}
+.story2 p{
+	text-align: center;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.story2 button{
+position: relative;
+	top: -200px;
+	left:  -400px;
+	width: 70px;
+ height: 70px; 
+border-width: medium;
+font-size: 25px;
+font-weight: bolder;
 
 }
+ 
+ nav {
+ 	background-color: black;
+
+ }
+ nav ul{
+ 	list-style-type: none;
+  
+ }
+
+ nav ul li {
+ 	display: inline-block;
+ 	padding: 5px 5px 20px;
+ }
+ nav a {
+ 	text-decoration: none;
+ 	color: white;
+ 	font-weight: bolder;
+
+ }
 
 
+ nav button{
+ 	 height: 50px;
+ 	 width: 200px;
+ 	 text-align: left;
+ 	 font-size: 20px;
+border: 5px solid;
+ 	 border-width: thin; 
+ border-color: white;
+ background-color: black;
+ color: white;
+ letter-spacing: 0.1em;
+ word-spacing: 30px;
 
+ }
+ nav button{
+ 	position: relative;
+ 	right: -850px; 
+ }
 /*<div class="BANNER" id="HOMEPAGE">
 		
 		 <a href="#" class="logo">CK</a>
